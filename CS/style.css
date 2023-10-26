@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.stolica {
+    width: 900px;
+    height: 900px;
+}
+.biepi {
+    width: 900px;
+    height: 700px;
+}
+
+@media screen and  (max-width: 500px) {
+    .container {
+        max-width: 390px;
+    }
+    .stolica,
+     .biepi{
+       width:320px ; 
+       height: 300px;
+    }
+ 
+}
